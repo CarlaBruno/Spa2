@@ -42,6 +42,7 @@
     border-radius: 15px;
     color: #79062E;
     margin-left: 50px;
+    
 }
 
 .intro-servicios {
@@ -219,7 +220,7 @@
     margin-top: 25px;
     border-radius: 10px;
     font-size: 24px;
-}
+   }
 
 /* CONTACTO*/
 
@@ -296,11 +297,10 @@ button {
     font-family: "Marcellus";
     background-color: #fff;
     border-color: #fff;
-    color: #79062E;
-
-    &:hover {
+        &:hover {
         color: #fff;
         background-color: #79062E;
+        transform: scale(1.2);
     }
 }
 

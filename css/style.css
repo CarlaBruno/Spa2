@@ -324,6 +324,7 @@ ul {
     right: 200px;
     list-style: none;
     flex-wrap: wrap;
+    color: #fff;
 }
 
 a:hover {

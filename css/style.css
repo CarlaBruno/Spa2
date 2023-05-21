@@ -88,7 +88,9 @@
     align-items: center;
 }
 
-
+.nuestras-fotos {
+  display: flex;
+}
 .items {
     display: flex;
     justify-content: space-evenly;
@@ -100,10 +102,9 @@
 /* SERVICIOS*/
 
 .servicios {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .servicios img {
@@ -289,6 +290,14 @@ a {
     height: 80px;
 }
 
+.navbar-nav {
+  background-color: #fff;
+  font-family: "Marcellus";
+}
+.navbar-collapse {
+  background-color: #fff;
+}
+.container-fluid {background-color: #fff;}
 
 .seccion-rosa {
     background-color:#D59999;

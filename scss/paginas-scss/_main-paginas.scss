@@ -147,18 +147,16 @@
     align-items: flex-start;
     margin: 133px;
 }
-
+.nuestras-fotos {
+    display: flex;
+}
 /* SERVICIOS*/
 
 .servicios {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    display: flex;
     align-items: center;
-    flex-flow: column nowrap;
-
-    img {
+    flex-wrap: wrap;
+     img {
         padding: 25px;
     }
 }

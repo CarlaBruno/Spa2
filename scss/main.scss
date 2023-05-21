@@ -6,181 +6,19 @@
 }
 
 $bordo: #79062E;
+$rosa: #D59999;
+$negro:#454550;
 
-@import url(./hojas-scss/_reset.scss);
+
+
+@import url(./paginas-scss/_reset.scss);
 @import url(./hojas-scss/_header.scss);
-@import url(./paginas-scss/_main-home.scss);
+@import url(./paginas-scss/_main-paginas.scss);
+@import url(./paginas-scss/_media.scss);
 
-
-
-.items {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    margin: 133px;
-}
-
-.servicios {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-flow: column nowrap;
-
-    img {
-        padding: 25px;
-    }
-}
-
-.precios {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.promos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #F0DADA;
-    padding: 50px;
-    border-radius: 15px;
-    margin: 30px;
-    flex-wrap: wrap;
-}
-
-.ofertas {
-    color: #454550;
-    font-size: 20px;
-}
-
-.productos {
-    display: flex;
-    margin: 20px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 30px;
-}
-
-.corporal {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-bottom: 15px;
-}
-
-.facial {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
-.boton-productos,
-button {
-    margin-top: 25px;
-    border-radius: 10px;
-    font-size: 24px;
-}
-
-.formulario {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Rubik";
-    color: #454550;
-    background: linear-gradient(#D59999, #fff);
-    margin: 20px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    border-radius: 15px;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Rubik";
-    color: #454550;
-    background: linear-gradient(#D59999, #fff);
-    margin: 20px;
-    padding-bottom: 50px;
-    padding-top: 30px;
-    border-radius: 15px;
-    width: 500px;
-}
-
-.consulta {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-top: 30px;
-}
-
-.horario {
-    display: flex;
-    margin-top: -13px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    list-style: none;
-    font-family: "Rubik";
-}
-
-input {
-    font-family: "Marcellus";
-    font-size: 14px;
-    padding: 15px;
-    border-radius: 15px;
-    border-color: #D59999;
-    color: #454550;
-    margin: 20px;
-
-    &:focus {
-        transform: scale(1.02);
-        background-color: #F0DADA;
-    }
-}
-
-.enviar {
-    font-family: "Marcellus";
-    background-color: #79062E;
-    font-size: 24px;
-    border-color: #fff;
-    border-radius: 15px;
-    color: #fff;
-    width: 150px;
-
-    &:hover {
-        color: #79062E;
-        background-color: #fff;
-    }
-}
-
-button {
-    font-family: "Marcellus";
-    background-color: #fff;
-    border-color: #fff;
-    font-family: "Marcellus";
-    background-color: #fff;
-    font-size: 18px;
-    border-color: #fff;
-    border-radius: 15px;
-    color: #79062E;
-
-    &:hover {
-        color: #fff;
-        background-color: #79062E;
-        transform: scale(1.2);
-    }
+* {
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -314,52 +152,5 @@ p {
     color: #fff;
 }
 
-.footer {
-    background-color: #D59999;
-    color: #fff;
-    font-family: "Rubik";
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    align-content: stretch;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    height: 100px;
-    width: 100%;
-    margin-top: 150px;
-    background-color: #D59999;
-    color: #fff;
-    font-family: "Rubik";
-    display: flex;
-    margin-top: 30px;
-    height: 100px;
-    width: 100%;
-    margin-top: 150px;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    position: bottom;
-}
-
-@media (max-width: 617px) {
-.header {
-    display: flex;
-    height: 50px;
-    justify-content: center;
-    align-content: stretch;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-}
 
 
-
-.foto {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-
-.collapse {
-    background-color: #fff;
-}
-} 

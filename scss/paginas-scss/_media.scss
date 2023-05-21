@@ -1,0 +1,186 @@
+@media (max-width: 617px) {
+    .header {
+      display: flex;
+      height: 50px;
+      justify-content: center;
+      align-content: stretch;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+    }
+  
+    ul {
+      font-family: "Marcellus";
+      font-size: 12px;
+      display: flex;
+      list-style: none;
+      flex-wrap: nowrap;
+      align-items: center;
+      padding: 0%;
+      margin: 20px;
+    }
+  
+    /* Home*/
+    .banner {
+      margin-top: 150px;
+      height: 150px;
+      width: 100%;
+    }
+  
+    .boton-banner {
+      font-family: "Marcellus";
+      background-color: #fff;
+      font-size: 14px;
+      border-color: #fff;
+      border-radius: 15px;
+      color: #79062E;
+      margin-left: 50px;
+    }
+  
+    .titulo-home {
+      font-family: "Marcellus";
+      color: #fff;
+      font-size: 24px;
+      padding: 0px;
+      margin: left 0px;
+    }
+  
+    .seccion-rosa {
+      background-color: #D59999;
+      height: auto;
+      display: flex;
+      padding-bottom: 15px;
+      width: 100%;
+    }
+  
+    /* Sobre nosotros*/
+  
+   
+    .foto {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .nuestras-fotos {
+      display: grid;
+      justify-items: center;
+    }
+  
+    /* Servicios*/
+  
+    .servicios {
+      display: flex;
+      align-items: center;
+      flex-flow: column nowrap;
+    }
+  
+    /* producto*/
+  
+    .foto-producto {
+      width: 100%;
+    }
+  
+    .facial {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+  
+    /* contacto*/
+    .formulario {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      font-family: "Rubik";
+      color: #454550;
+      background: linear-gradient(#D59999, #fff);
+      margin: 20px;
+      padding-bottom: 50px;
+      padding-top: 30px;
+      border-radius: 15px;
+      width: 500px;
+    }
+  
+  
+    /* Generales*/
+  
+    .collapse {
+      background-color: #fff;
+    }
+  
+    .cta {
+      font-size: 20px;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .footer {
+      background-color: #D59999;
+      color: #fff;
+      font-family: "Rubik";
+      display: flex;
+      margin-top: 30px;
+      height: 100px;
+      width: 100%;
+      margin-top: 150px;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      position: bottom;
+    }
+  
+    button {
+      font-family: "Marcellus";
+      background-color: #fff;
+      font-size: 18px;
+      border-color: #fff;
+      border-radius: 15px;
+      color: #79062E;
+    }
+  
+    h1 {
+      font-family: "Marcellus";
+      color: #79062E;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+      margin-left: 35px;
+    }
+  
+    h2 {
+      font-family: "Marcellus";
+      color: #79062E;
+      font-size: 24px;
+      margin: 30px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    h3 {
+      font-family: "Marcellus";
+      color: #454550;
+      font-size: 20px;
+    }
+  
+    h4 {
+      font-family: "Rubik";
+      color: #454550;
+      font-size: 18px;
+    }
+  
+    h5 {
+      font-family: "Marcellus";
+      font-size: 16px;
+      background-color: #D59999;
+      color: #454550;
+    }
+  
+    p {
+      font-family: "Rubik";
+      color: #454550;
+      font-size: 14px;
+    }
+  }

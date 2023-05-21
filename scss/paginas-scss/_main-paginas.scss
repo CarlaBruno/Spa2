@@ -1,0 +1,271 @@
+/* HOME*/
+
+
+.banner {
+    background-image: url(../Recursos/home\ portada.png);
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+    margin-top: 150px;
+    height: 150px;
+    width: 100%;
+
+    .titulo-home {
+        font-family: "Marcellus";
+        color: #fff;
+        font-size: 50px;
+        margin-left: 50px;
+        font-family: "Marcellus";
+        color: #fff;
+        font-size: 24px;
+        padding: 0px;
+        margin: left 0px;
+    }
+
+.boton-banner {
+    font-family: "Marcellus";
+    background-color: #fff;
+    font-size: 24px;
+    border-color: #fff;
+    border-radius: 15px;
+    color: #79062E;
+    margin-left: 50px;
+}
+}
+
+.intro-servicios {
+    background-color: #fff;
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.productos-subtitulo {
+    display: flex;
+    justify-content: center;
+}
+
+.caja-reseña {
+    background-color: #F0DADA;
+    height: 350px;
+    text-align: center;
+    color: $bordo;
+    padding-top: 40px;
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+
+    .titulo-reseña {
+        color: $bordo;
+        padding-bottom: 15px;
+        align-items: center;
+    }
+
+    .reseñas {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+}
+
+.alinear {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nuestras-fotos {
+    display: grid;
+    justify-items: center;
+    display: grid;
+    justify-items: center;
+}
+
+/* NOSOTROS*/
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 133px;
+}
+
+/* SERVICIOS*/
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+
+    img {
+        padding: 25px;
+    }
+}
+
+.precios {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.promos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0DADA;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.ofertas {
+    color: #454550;
+    font-size: 20px;
+}
+
+
+/* PRODUCTOS*/
+
+.productos {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.corporal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.facial {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.boton-productos,
+button {
+    margin-top: 25px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+/* CONTACTO*/
+
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Rubik";
+    color: #454550;
+    background: linear-gradient(#D59999, #fff);
+    margin: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 15px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Rubik";
+    color: #454550;
+    background: linear-gradient(#D59999, #fff);
+    margin: 20px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    border-radius: 15px;
+    width: 500px;
+}
+
+.consulta {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.horario {
+    display: flex;
+    margin-top: -13px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    font-family: "Rubik";
+}
+
+input {
+    font-family: "Marcellus";
+    font-size: 14px;
+    padding: 15px;
+    border-radius: 15px;
+    border-color: #D59999;
+    color: #454550;
+    margin: 20px;
+
+    &:focus {
+        transform: scale(1.02);
+        background-color: #F0DADA;
+    }
+}
+
+.enviar {
+    font-family: "Marcellus";
+    background-color: #79062E;
+    font-size: 24px;
+    border-color: #fff;
+    border-radius: 15px;
+    color: #fff;
+    width: 150px;
+
+    &:hover {
+        color: #79062E;
+        background-color: #fff;
+    }
+}
+
+button {
+    font-family: "Marcellus";
+    background-color: #fff;
+    border-color: #fff;
+    font-family: "Marcellus";
+    background-color: #fff;
+    font-size: 18px;
+    border-color: #fff;
+    border-radius: 15px;
+    color: #79062E;
+
+    &:hover {
+        color: #fff;
+        background-color: #79062E;
+        transform: scale(1.2);
+    }
+}

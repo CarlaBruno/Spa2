@@ -1,290 +1,16 @@
+@import url(./paginas-scss/_reset.scss);
+@import url(./hojas-scss/_header.scss);
+@import url(./paginas-scss/_main-paginas.scss);
+@import url(./paginas-scss/_media.scss);
 @font-face {
   font-family: "Marcellus";
   src: url("../Recursos/Marcellus-Regular.ttf");
-}
-
-@font-face {
   font-family: "Rubik";
   src: url("../Recursos/Rubik-VariableFont_wght.ttf");
 }
-
 * {
   margin: 0;
   padding: 0;
-}
-
-/* HOME*/
-.banner {
-  background-image: url(../Recursos/home\ portada.png);
-  display: flex;
-  width: 100%;
-  height: 600px;
-  justify-content: flex-start;
-  align-content: stretch;
-  align-items: center;
-}
-
-.titulo-home {
-  font-family: "Marcellus";
-  color: #fff;
-  font-size: 50px;
-  margin-left: 50px;
-}
-
-.boton-banner {
-  font-family: "Marcellus";
-  background-color: #fff;
-  font-size: 24px;
-  border-color: #fff;
-  border-radius: 15px;
-  color: #79062E;
-  margin-left: 50px;
-}
-
-.intro-servicios {
-  background-color: #fff;
-  display: flex;
-  margin-top: 30px;
-  flex-wrap: wrap;
-  align-content: stretch;
-  justify-content: space-evenly;
-  align-items: baseline;
-}
-
-.productos-subtitulo {
-  display: flex;
-  justify-content: center;
-}
-
-.caja-reseña {
-  background-color: #F0DADA;
-  height: 350px;
-  text-align: center;
-  color: #79062E;
-  padding-top: 40px;
-  margin-top: 30px;
-  height: auto;
-  width: 100%;
-}
-
-.titulo-reseña {
-  color: #79062E;
-  padding-bottom: 15px;
-  align-items: center;
-}
-
-.reseñas {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 15px;
-  width: 100%;
-}
-
-
-/* NOSOTROS*/
-
-.alinear {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.nuestras-fotos {
-  display: grid;
-  justify-items: center;
-}
-
-.items {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: flex-start;
-  margin: 133px;
-}
-
-/* SERVICIOS*/
-.servicios {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  }
-.servicios img {
-  padding: 25px;
-}
-
-.precios {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.promos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #F0DADA;
-  padding: 50px;
-  border-radius: 15px;
-  margin: 30px;
-  flex-wrap: wrap;
-}
-
-.ofertas {
-  color: #454550;
-  font-size: 20px;
-}
-
-/* PRODUCTOS*/
-.productos {
-  display: flex;
-  margin: 20px;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 30px;
-}
-
-.corporal {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-bottom: 15px;
-}
-
-.facial {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.boton-productos,
-button {
-  margin-top: 25px;
-  border-radius: 10px;
-  font-size: 24px;
-}
-
-/* CONTACTO*/
-.formulario {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  font-family: "Rubik";
-  color: #454550;
-  background: linear-gradient(#D59999, #fff);
-  margin: 20px;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  border-radius: 15px;
-  width: 500px;
-}
-
-.consulta {
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-top: 30px;
-}
-
-.horario {
-  display: flex;
-  margin-top: -13px;
-  flex-direction: column;
-  flex-wrap: wrap;
-  list-style: none;
-  font-family: "Rubik";
-}
-
-input {
-  font-family: "Marcellus";
-  font-size: 14px;
-  padding: 15px;
-  border-radius: 15px;
-  border-color: #D59999;
-  color: #454550;
-  margin: 20px;
-}
-
-input:focus {
-  transform: scale(1.02);
-  background-color: #F0DADA;
-}
-
-.enviar {
-  font-family: "Marcellus";
-  background-color: #79062E;
-  font-size: 24px;
-  border-color: #fff;
-  border-radius: 15px;
-  color: #fff;
-  width: 150px;
-}
-
-.enviar:hover {
-  color: #79062E;
-  background-color: #fff;
-}
-
-/* GENERALES*/
-button {
-  font-family: "Marcellus";
-  background-color: #fff;
-  border-color: #fff;
-}
-
-button:hover {
-  color: #fff;
-  background-color: #79062E;
-  transform: scale(1.2);
-}
-
-.header {
-  display: flex;
-  height: 100px;
-  justify-content: space-between;
-}
-
-li {
-  margin: 20px;
-}
-
-ul {
-  font-family: "Marcellus";
-  font-size: 18px;
-  display: flex;
-  margin: 20px;
-  right: 200px;
-  list-style: none;
-  flex-wrap: wrap;
-}
-
-a {
-  color :#454550;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #79062E;
-  font-style: oblique;
-  text-decoration: underline;
-}
-
-.navbar-nav {
-  background-color: #fff;
-  font-family: "Marcellus";
-}
-.navbar-collapse {
-  background-color: #fff;
-}
-.container-fluid {background-color: #fff;}
-
-.logo {
-  display: flex;
-  height: 80px;
 }
 
 .seccion-rosa {
@@ -297,10 +23,19 @@ a:hover {
   margin-bottom: 50px;
   margin-top: 30px;
   padding-bottom: 15px;
+  background-color: #D59999;
+  height: auto;
+  display: flex;
+  padding-bottom: 15px;
+  width: 100%;
 }
 
 .cta {
   font-size: 32px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -312,23 +47,18 @@ a:hover {
   align-content: center;
   justify-content: space-evenly;
 }
-
-.foto-producto:hover {
-  transform: scale(1.2);
-}
-
 .galeria p {
   text-align: center;
 }
-
 .galeria h3 {
   text-align: center;
 }
 
-.alinear {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.foto-producto {
+  width: 100%;
+}
+.foto-producto:hover {
+  transform: scale(1.2);
 }
 
 h1 {
@@ -337,12 +67,25 @@ h1 {
   font-size: 40px;
   display: flex;
   justify-content: center;
+  font-family: "Marcellus";
+  color: #79062E;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  margin-left: 35px;
 }
 
 h2 {
   font-family: "Marcellus";
   color: #79062E;
   font-size: 32px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  font-family: "Marcellus";
+  color: #79062E;
+  font-size: 24px;
   margin: 30px;
   display: flex;
   justify-content: center;
@@ -353,17 +96,27 @@ h3 {
   color: #454550;
   font-size: 24px;
   margin: 10px;
+  font-family: "Marcellus";
+  color: #454550;
+  font-size: 20px;
 }
 
 h4 {
   font-family: "Rubik";
   color: #454550;
   font-size: 20px;
+  font-family: "Rubik";
+  color: #454550;
+  font-size: 18px;
 }
 
 h5 {
   font-family: "Marcellus";
   font-size: 18px;
+  background-color: #D59999;
+  color: #454550;
+  font-family: "Marcellus";
+  font-size: 16px;
   background-color: #D59999;
   color: #454550;
 }
@@ -372,6 +125,9 @@ p {
   font-family: "Rubik";
   color: #454550;
   font-size: 18px;
+  font-family: "Rubik";
+  color: #454550;
+  font-size: 14px;
 }
 
 .subtitulo {
@@ -382,208 +138,4 @@ p {
 .texto {
   font-family: "Rubik";
   color: #fff;
-}
-
-.footer {
-  background-color: #D59999;
-  color: #fff;
-  font-family: "Rubik";
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  align-content: stretch;
-  justify-content: space-evenly;
-  margin-top: 30px;
-  height: 100px;
-  width: 100%;
-  margin-top: 150px;
-}
-
-/* MOBILE LAST*/
-
-@media (max-width: 617px) {
-  .header {
-    display: flex;
-    height: 50px;
-    justify-content: center;
-    align-content: stretch;
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-  }
-
-  ul {
-    font-family: "Marcellus";
-    font-size: 12px;
-    display: flex;
-    list-style: none;
-    flex-wrap: nowrap;
-    align-items: center;
-    padding: 0%;
-    margin: 20px;
-  }
-
-  /* Home*/
-  .banner {
-    margin-top: 150px;
-    height: 150px;
-    width: 100%;
-  }
-
-  .boton-banner {
-    font-family: "Marcellus";
-    background-color: #fff;
-    font-size: 14px;
-    border-color: #fff;
-    border-radius: 15px;
-    color: #79062E;
-    margin-left: 50px;
-  }
-
-  .titulo-home {
-    font-family: "Marcellus";
-    color: #fff;
-    font-size: 24px;
-    padding: 0px;
-    margin: left 0px;
-  }
-
-  .seccion-rosa {
-    background-color: #D59999;
-    height: auto;
-    display: flex;
-    padding-bottom: 15px;
-    width: 100%;
-  }
-
-  /* Sobre nosotros*/
-
- 
-  .foto {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: nowrap;
-  }
-  .nuestras-fotos {
-    display: grid;
-    justify-items: center;
-  }
-
-  /* Servicios*/
-
-  .servicios {
-    display: flex;
-    align-items: center;
-    flex-flow: column nowrap;
-  }
-
-  /* producto*/
-
-  .foto-producto {
-    width: 100%;
-  }
-
-  .facial {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-  }
-
-  /* contacto*/
-  .formulario {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Rubik";
-    color: #454550;
-    background: linear-gradient(#D59999, #fff);
-    margin: 20px;
-    padding-bottom: 50px;
-    padding-top: 30px;
-    border-radius: 15px;
-    width: 500px;
-  }
-
-
-  /* Generales*/
-
-  .collapse {
-    background-color: #fff;
-  }
-
-  .cta {
-    font-size: 20px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-  }
-
-  .footer {
-    background-color: #D59999;
-    color: #fff;
-    font-family: "Rubik";
-    display: flex;
-    margin-top: 30px;
-    height: 100px;
-    width: 100%;
-    margin-top: 150px;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    position: bottom;
-  }
-
-  button {
-    font-family: "Marcellus";
-    background-color: #fff;
-    font-size: 18px;
-    border-color: #fff;
-    border-radius: 15px;
-    color: #79062E;
-  }
-
-  h1 {
-    font-family: "Marcellus";
-    color: #79062E;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    margin-left: 35px;
-  }
-
-  h2 {
-    font-family: "Marcellus";
-    color: #79062E;
-    font-size: 24px;
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-  }
-
-  h3 {
-    font-family: "Marcellus";
-    color: #454550;
-    font-size: 20px;
-  }
-
-  h4 {
-    font-family: "Rubik";
-    color: #454550;
-    font-size: 18px;
-  }
-
-  h5 {
-    font-family: "Marcellus";
-    font-size: 16px;
-    background-color: #D59999;
-    color: #454550;
-  }
-
-  p {
-    font-family: "Rubik";
-    color: #454550;
-    font-size: 14px;
-  }
-}
+}/*# sourceMappingURL=main.css.map */
